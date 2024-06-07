@@ -3,7 +3,7 @@
 }
 
 .navigation {
-  @apply fixed bottom-0 w-full bg-[#f4f4f5] border-t dark:bg-[#18181b] dark:border-[#393941];
+  @apply fixed bottom-0 w-full bg-[#f4f4f5] border-t dark:bg-[#f4f4f5] dark:border-[#f4f4f5];
 }
 
 .navBox {
@@ -12,6 +12,8 @@
 
 .link {
   @apply flex h-full w-full flex-col items-center justify-center space-y-1;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 .primary {
@@ -19,7 +21,7 @@
 }
 
 .secondary {
-  @apply dark:text-[#313131] dark:hover:text-[#393939] text-[#cacaca] hover:text-[#707070];
+  @apply dark:text-[#cacaca] dark:hover:text-[#cacaca] text-[#cacaca] hover:text-[#cacaca];
 }
 
 .linkName {

@@ -2,7 +2,6 @@ import HomeSvg from '@svg/HomeSvg';
 import PageASvg from '@svg/PageASvg';
 import PageBSvg from '@svg/PageBSvg';
 
-
 const bottomNavigation: shu.BottomNavigation = [
   {
     id: 1,

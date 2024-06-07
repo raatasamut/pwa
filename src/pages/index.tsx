@@ -1,6 +1,6 @@
 import Page from '@layouts/Page';
 import Section from '@layouts/Section';
-import Home from '@components/Home';
+import Home from '@components/modules/home/Home';
 
 export default function main(): JSX.Element {
   return (

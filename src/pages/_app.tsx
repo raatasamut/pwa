@@ -9,9 +9,11 @@ export default function App({ Component, pageProps }: AppProps) {
         navigator.serviceWorker
           .register('/pwa-service-worker.js')
           .then((registration) => {
+            // eslint-disable-next-line no-console
             console.log('Service Worker registered with scope:', registration.scope);
           })
           .catch((error) => {
+            // eslint-disable-next-line no-console
             console.log('Service Worker registration failed:', error);
           });
       });

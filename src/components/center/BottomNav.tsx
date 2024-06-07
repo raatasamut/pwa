@@ -26,7 +26,7 @@ function BottomNav(): JSX.Element {
               }`}
             >
               {links.icon}
-              <span className={styles.linkName}>{links.label}</span>
+              {/* <span className={styles.linkName}>{links.label}</span> */}
             </Link>
           ))}
         </div>

@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Header from '@components/Header';
-import BottomNav from '@components/BottomNav';
-import Footer from '@components/Footer';
+import Header from '@components/center/Header';
+import BottomNav from '@components/center/BottomNav';
+import Footer from '@components/center/Footer';
 
 /**
  * It's a React component that renders a page with a header, footer, and bottom navigation

@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import NavBar from '@components/NavBar';
 import styles from '@styles/Header.module.css';
-import HomeSvg from '@svg/HomeSvg';
+import NavBar from '@components/center/NavBar';
 
 /**
  * It returns a header element with a logo, a title, and a navigation bar

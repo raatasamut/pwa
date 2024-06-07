@@ -1,5 +1,5 @@
 import { Head, Html, Main, NextScript } from 'next/document';
-import Meta from '@components/Meta';
+import Meta from '@components/center/Meta';
 
 export default function Document(): JSX.Element {
   return (
