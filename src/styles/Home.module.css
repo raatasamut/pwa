@@ -1,5 +1,5 @@
 .containers {
-  @apply container py-8 px-8 mx-0 min-w-full flex flex-col items-center;
+  @apply container py-8 pb-56 px-8 mx-0 min-w-full flex flex-col items-center;
 }
 
 .heading {
