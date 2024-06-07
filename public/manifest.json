@@ -1,0 +1,52 @@
+{
+  "name": "SHU PWA Template",
+  "short_name": "SHU PWA",
+  "description": "SHU PWA template using Next.js",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icons/icon-maskable-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/1.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/2.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/3.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ]
+}
