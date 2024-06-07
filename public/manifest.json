@@ -1,8 +1,11 @@
 {
+  "id": "SHU PWA",
+  "dir": "auto",
+  "lang": "th",
   "name": "SHU PWA Template",
   "short_name": "SHU PWA",
   "description": "SHU PWA template using Next.js",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
